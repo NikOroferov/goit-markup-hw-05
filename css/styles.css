@@ -316,12 +316,11 @@ img {
 }
 
 .icon-background {
-  height: 120px;
-  width: 270px;
-
   display: flex;
   align-items: center;
   justify-content: center;
+
+  height: 120px;
 
   background-color: var(--third-bcg-color);
 }
@@ -554,16 +553,14 @@ img {
 }
 
 .address {
+  margin-top: 20px;
+
   color: white;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
-}
-
-.address-bottom {
-  margin-top: 20px;
 }
 
 .address-list,
